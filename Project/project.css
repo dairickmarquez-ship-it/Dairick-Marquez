@@ -78,13 +78,6 @@ h1 {
   font-size: 16px;
 }
 
-/* TABLET */
-@media (max-width: 900px) {
-  .projects {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 /* MOBILE */
 @media (max-width: 600px) {
   .projects {
