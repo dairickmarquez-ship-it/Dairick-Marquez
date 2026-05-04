@@ -103,25 +103,7 @@ button:hover {
   max-width: 100%;
 }
 
-/* ========================= */
-/* 📱 TABLET */
-@media (max-width: 900px) {
-  .main {
-    padding: 30px;
-    gap: 20px;
-  }
-
-  .text h1 {
-    font-size: 40px;
-  }
-
-  .image img {
-    width: 300px;
-  }
-}
-
-/* ========================= */
-/* 📱 MOBILE */
+/* MOBILE */
 @media (max-width: 600px) {
   header {
     flex-direction: column;
