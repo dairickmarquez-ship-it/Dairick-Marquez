@@ -154,3 +154,25 @@ button:hover {
     width: 100%;
   }
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1; /* pushes footer down */
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4f74b8;
+  color: white;
+  font-size: 17px;
+}
