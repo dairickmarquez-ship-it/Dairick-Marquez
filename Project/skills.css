@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dcdcdc;
+}
+
+.header {
+  background: #4f74b8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 40px;
+  border-bottom: 3px solid black;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: -1%;
+}
+
+.social-icons img {
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  padding: 40px;
+}
+
+.left {
+  width: 40%;
+}
+
+.left img {
+  width: 90%;
+}
+
+.right {
+  width: 60%;
+  padding-left: 20px;
+}
+
+.social-icons img {
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  padding: 40px;
+}
+
+.left {
+  width: 40%;
+}
+
+.left img {
+  width: 90%;
+}
+
+.right {
+  width: 60%;
+  padding-left: 20px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #5f8fcf;
+  color: white;
+  padding: 15px;
+}
+
+td {
+  padding: 20px;
+  background-color: #cfd6e6;
+  text-align: center;
+}
+
+td:first-child {
+  text-align: left;
+  font-weight: bold;
+}
+
+.icon {
+  height: 60px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+}
+
+a {
+  text-decoration: none;
+}

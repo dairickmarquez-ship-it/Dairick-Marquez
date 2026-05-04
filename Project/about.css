@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #dcdcdc;
+}
+
+/* NAVBAR */
+header {
+  background: #4f74b8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 3px solid black;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* ICONS */
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons img {
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.icons i:hover {
+  transform: scale(1.1);
+}
+
+/* MAIN */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 40px;
+}
+
+/* TEXT */
+.text {
+  max-width: 500px;
+}
+
+.intro {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.text h1 {
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.text h2 {
+  font-size: 40px;
+  top: 40%;
+}
+.desc {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* BUTTON */
+button {
+  background: #4f74b8;
+  color: black;
+  padding: 12px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+
+button:hover {
+  background: #3b5da0;
+  color: white;
+}
+
+/* IMAGE */
+.image img {
+  width: 350px;
+  max-width: 100%;
+}
+
+/* ========================= */
+/* 📱 TABLET */
+@media (max-width: 900px) {
+  .main {
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .text h1 {
+    font-size: 40px;
+  }
+
+  .image img {
+    width: 300px;
+  }
+}
+
+/* ========================= */
+/* 📱 MOBILE */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  .text h1 {
+    font-size: 32px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .image img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dcdcdc;
+}
+
+/* HEADER (from your reference) */
+.header {
+  background: #4f74b8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  border-bottom: 3px solid black;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 45px;
+  border-radius: 50%;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons img {
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+
+/* BACK BUTTON */
+.back {
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* PROJECT GRID */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 30px;
+}
+
+.card {
+  background: #eee;
+  border: 2px solid #555;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 15px;
+  font-size: 16px;
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .back {
+    position: static;
+    display: block;
+    text-align: right;
+    margin: 10px 20px;
+  }
+
+  .social-icons img {
+    height: 25px;
+  }
+}
