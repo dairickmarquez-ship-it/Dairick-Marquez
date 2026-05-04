@@ -63,7 +63,7 @@ h1 {
 .card {
   background: #eee;
   border: 2px solid #555;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
@@ -106,4 +106,26 @@ h1 {
   .social-icons img {
     height: 25px;
   }
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1; /* pushes footer down */
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4f74b8;
+  color: white;
+  font-size: 17px;
 }
