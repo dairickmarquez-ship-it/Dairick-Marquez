@@ -115,7 +115,7 @@ iframe {
   }
 }
 
-/* SMALL PHONES */
+/* MOBILE */
 @media (max-width: 480px) {
   .logo {
     font-size: 16px;
